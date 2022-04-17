@@ -20,7 +20,7 @@ jobs:
 
     - name: Build
       run: |
-         go run ../hello.go
+         go run ../hello
          go build -v ../hello
 
     - name: Test

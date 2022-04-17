@@ -20,8 +20,8 @@ jobs:
 
     - name: Build
       run: |
-        go mod init ../hello
-        go build -v ../hello
+         go run ../hello.go
+         go build -v ../hello
 
     - name: Test
       run: go test -v ./...

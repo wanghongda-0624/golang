@@ -22,6 +22,7 @@ jobs:
       run: |
          cd ..
          go mod init github.com/wanghongda-0624/golang.git
+         go  get  -u  github.com/gin-gonic/gin
          go run ../hello
          go build -v ../hello
 
